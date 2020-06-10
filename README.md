@@ -5,13 +5,18 @@
 
 <h2>Descrição Básica da API</h2>
 <h2>Usuário</h2>
-A API do Usuário
-
-GET
-/api/users/{id} - Obtém o usuário por id
-PUT
-/api/users/{id} - Atualiza informações do usuário
-Exemplo de Request Body
+<p>A API do Usuário</p>
+<ul>
+  <li>
+    <h4>GET</h4>
+<pre>
+<code>/api/users/{id} - Obtém o usuário por id</code></pre>
+<h4>PUT</h4>
+    <pre><code>/api/users/{id} - Atualiza informações do usuário</code></pre>
+  </li>
+  </ul>
+  
+<p><strong>Exemplo de Request Body</strong></p>
 
 {
   "nome": "Roberto",
