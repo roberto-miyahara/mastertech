@@ -1,10 +1,10 @@
 <h1>Teste Sistema de Ponto</h1>
-Swagger para visualização e testes da API: http://localhost:[port]/swagger-ui.html
+<p>Swagger para visualização e testes da API: http://localhost:[port]/swagger-ui.html</p>
 
-Na configuração padrão da aplicação, caso a porta não seja alterada no application.properties: http://localhost:9876/swagger-ui.html
+<p>Na configuração padrão da aplicação, caso a porta não seja alterada no application.properties: <a href="http://localhost:9876/swagger-ui.html" rel="nofollow">http://localhost:9876/swagger-ui.html</a></p>
 
-Descrição Básica da API
-Usuário
+<h2>Descrição Básica da API</h2>
+<h2>Usuário</h2>
 A API do Usuário
 
 GET
