@@ -36,19 +36,19 @@ Exemplo de Request Body
   "cpf": "444.333.555-66"
   "email": "r.miyahara@hotmail.com"
 }
-Controle de Ponto
+<h2>Controle de Ponto</h2>
 A API do Controle de Ponto
 
-GET
+<h4>GET</h4>
 /api/punchClock - Obtém todos os pontos registrados
-POST
+<h4>POST</h4>
 /api/punchClock - Adiciona novo registro de ponto
-Exemplo de Request Body
+<p><strongExemplo de Request Body</p></strong>
 
 {
   "idUsuario": 1
 }
-GET
+<h4>GET</h4>
 /api/punchClock/userId/{id} - Busca registro de ponto por id do usuário
-DELETE
+<h4>DELETE</h4>
 /api/punchClock/{id} - Remove registro de ponto por id
