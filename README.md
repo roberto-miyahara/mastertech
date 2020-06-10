@@ -1,4 +1,4 @@
-Teste Sistema de Ponto
+<h1>Teste Sistema de Ponto</h1>
 Swagger para visualização e testes da API: http://localhost:[port]/swagger-ui.html
 
 Na configuração padrão da aplicação, caso a porta não seja alterada no application.properties: http://localhost:9876/swagger-ui.html
