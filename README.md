@@ -23,11 +23,11 @@
   "cpf": "444.333.555-66"
   "email": "r.miyahara@hotmail.com"
 }
-DELETE
+<h4>DELETE></h4>
 /api/users/{id} - Remove usuário por id
-GET
+<h4>GET</h4>
 /api/users - Obtém todos os usuários cadastrados
-POST
+<h4>POST</h4>
 /api/users - Adiciona novo usuário
 Exemplo de Request Body
 
