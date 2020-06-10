@@ -15,8 +15,8 @@ Exemplo de Request Body
 
 {
   "nome": "Roberto",
-  "cpf": "444.333.555-66",
-  "email": "r.miyahara@hotmail.com.com"
+  "cpf": "444.333.555-66"
+  "email": "r.miyahara@hotmail.com"
 }
 DELETE
 /api/users/{id} - Remove usuário por id
@@ -27,9 +27,9 @@ POST
 Exemplo de Request Body
 
 {
-  "nome": "Thiago",
-  "cpf": "123.456.789-0",
-  "email": "thi.carsil@gmail.com"
+  "nome": "Roberto",
+  "cpf": "444.333.555-66"
+  "email": "r.miyahara@hotmail.com"
 }
 Controle de Ponto
 A API do Controle de Ponto
