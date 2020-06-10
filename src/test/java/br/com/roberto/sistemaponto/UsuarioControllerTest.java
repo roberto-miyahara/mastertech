@@ -28,13 +28,13 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class UsuarioControllerTest {
 
     private static final MediaType APPLICATION_JSON_UTF8 = new MediaType(APPLICATION_JSON.getType(), APPLICATION_JSON.getSubtype(), StandardCharsets.UTF_8);
-    private static final String USER_NAME = "Thiago";
-    private static final String USER_NAME_EDITED = "Thiago Cardoso Silva";
-    private static final String USER_EMAIL = "thi.carsil@gmail.com";
-    private static final String USER_CPF = "123.456.789-0";
-    private static final String INITIAL_USER_NAME = "[I] Thiago";
-    private static final String INITIAL_USER_EMAIL = "[I] thi.carsil@gmail.com";
-    private static final String INITIAL_USER_CPF = "[I] 123.456.789-0";
+    private static final String USER_NAME = "Roberto";
+    private static final String USER_NAME_EDITED = "Roberto Miyahara";
+    private static final String USER_EMAIL = "betzmiyahara@gmail.com";
+    private static final String USER_CPF = "444.333.888-33";
+    private static final String INITIAL_USER_NAME = "[I] Roberto Miyahara";
+    private static final String INITIAL_USER_EMAIL = "[I] betzmiyahara@gmail.com";
+    private static final String INITIAL_USER_CPF = "[I] 444.333.888-33";
     private int initialInsertId = 0;
 
     @Autowired
